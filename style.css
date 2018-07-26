@@ -172,21 +172,11 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-color:rgba(0,0,0,.3);
 }
 
-/* Row Margin Offsets */
-
-.voffset{
-	margin-top:30px;
-}
-
 /* Bloc text custom styling */
 
 #bloc-0 .navbar-brand{
-	line-height: 9px;
 	font-size: 14px;
-}
-#bloc-1 h1{
-	font-size: 50px;
-	line-height: 66px;
+	line-height: 9px;
 }
 
 /* = NavBar
@@ -339,6 +329,10 @@ nav .caret{
 	margin-top:10px;
 	margin-bottom:20px;
 }
+.mg-lg{
+	margin-top:10px;
+	margin-bottom:40px;
+}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -359,23 +353,27 @@ button{
 	outline: none!important;
 }
 
-.a-btn{
-	padding: 6px 10px 6px 0;
-	line-height: 1.42857143;
-	display:inline-block;
-}
-.text-center .a-btn{
-	padding: 6px 0;
-}
-.a-block{
-	width:100%;
-	text-align:left;
-}
-.text-center .a-block{
-	text-align:center;
-}
 
 
+/* Image Frame */
+.img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
+	background:#FFF;
+	border:1px solid rgba(0,0,0,0.1);
+	box-shadow:0 2px 2px rgba(0,0,0,0.05);
+	padding:4px;
+}
+.img-frame{
+	border-radius:3px;
+}
+.img-frame-md,.img-frame-lg{
+	border-radius:6px;
+}
+.img-frame-md,.img-frame-rd-md{
+	padding:8px;
+}
+.img-frame-lg,.img-frame-rd-lg{
+	padding:14px;
+}
 
 
 
@@ -394,6 +392,43 @@ button{
 
 
 
+/* = Carousel
+-------------------------------------------------------------- */
+
+.carousel{
+	display:inline-block;
+	vertical-align:bottom;
+}
+.full-width-bloc .carousel{
+	width:100%;
+}
+.carousel .item img{
+	margin-right:auto;
+	margin-left:auto;
+}
+.carousel-control span{
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+	display: inline-block;
+}
+.carousel-control{
+	color:#FFF!important;
+	text-shadow: none;
+}
+.carousel-indicators li{
+	margin: 0 4px;
+}
+.carousel-indicators .active{
+	margin: 0 4px -1px;
+}
+.carousel-control.left span{
+	margin-left:-15px;
+}
+
+.no-shadows .carousel-control.left, .no-shadows .carousel-control.right{
+	background-image: none;
+}
 
 
 /* ScrollToTop button */
@@ -419,17 +454,9 @@ button{
 /* = Custom Styling
 -------------------------------------------------------------- */
 
-h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
-}
 .container{
-	max-width:800px;
-}
-.mountaindusk-hero-text{
-	font-family:"Josefin Sans";
-	font-size:60px;
-	font-weight:bold;
-	text-shadow:0px 3px 3px rgba(0,0,0,0.3);
+	max-width:1800px;
+	float:left;
 }
 .mountaindusk-hero-text-sub{
 	font-family:"Josefin Sans";
@@ -448,8 +475,25 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .hero-text-vc{
 	margin-top:50%;
 }
-.hero-bloc-text{
-	font-size:55px;
+.lake-hero-text{
+	font-family:"Josefin Sans";
+	font-size:60px;
+	font-weight:bold;
+	text-shadow:0px 3px 3px rgba(0,0,0,0.3);
+}
+.lake-hero-text-sub{
+	font-family:"Josefin Sans";
+	font-size:36px;
+}
+.blocs-hero-btn-dwn{
+	background-color:rgba(0,0,0,0.0);
+}
+.statement-bloc-text{
+	line-height:38px;
+	font-style:italic;
+	font-size:28px;
+	text-align:center;
+	font-weight:lighter;
 }
 
 /* = Colour
@@ -464,24 +508,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:#000000;
 }
 
-/* Text colour styles */
-
-.tc-outer-space{
-	color:#47454B!important;
-	!important}
-/* Link colour styles */
-
-.ltc-outer-space{
-	color:#47454B!important;
-}
-.ltc-outer-space:hover{
-	color:#3b393e!important;
-}
-
 /* Bloc image backgrounds */
 
-.bg-fotoroger{
-	background-image:url("img/fotoroger.jpg");
+.bg-lake{
+	background-image:url("img/lake.jpg");
 }
 
 
@@ -732,6 +762,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bloc-mob-center-text{
 	text-align:center;
+}
+.lake-hero-text{
+	font-size:38px;
+}
+.lake-hero-text-sub{
+	font-size:24px;
+}
+.lake-hero-bloc{
+	background-size:1550px auto;
 }
  }
 
