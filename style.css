@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    My Site
+	    SitePessoal
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
@@ -172,11 +172,20 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Row Margin Offsets */
+
+.voffset{
+	margin-top:30px;
+}
+
 /* Bloc text custom styling */
 
-#bloc-0 .navbar-brand{
-	font-size: 14px;
-	line-height: 9px;
+#bloc-1 h1{
+	font-size: 50px;
+	line-height: 40px;
+}
+#bloc-2 p{
+	font-size: 20px;
 }
 
 /* = NavBar
@@ -313,14 +322,6 @@ nav .caret{
 	padding-left:inherit;
 	padding-right:inherit;
 }
-/* Thin Bars Menu Icon */
-.navbar-toggle.menu-icon-thin-bars .icon-bar{
-	height: 1px;
-	margin:6px 0;
-}
-.navbar-toggle.menu-icon-thin-bars{
-	margin-top:4px!important;
-}
 
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
@@ -328,10 +329,6 @@ nav .caret{
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
-}
-.mg-lg{
-	margin-top:10px;
-	margin-bottom:40px;
 }
 
 /* = Buttons
@@ -355,24 +352,15 @@ button{
 
 
 
-/* Image Frame */
-.img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
-	background:#FFF;
-	border:1px solid rgba(0,0,0,0.1);
-	box-shadow:0 2px 2px rgba(0,0,0,0.05);
-	padding:4px;
-}
-.img-frame{
-	border-radius:3px;
-}
-.img-frame-md,.img-frame-lg{
+/*  Rounded Image */
+.img-rd{
 	border-radius:6px;
 }
-.img-frame-md,.img-frame-rd-md{
-	padding:8px;
+.img-rd-md{
+	border-radius:20px;
 }
-.img-frame-lg,.img-frame-rd-lg{
-	padding:14px;
+.img-rd-lg{
+	border-radius:34px;
 }
 
 
@@ -390,8 +378,29 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 
+/* iFrame */
+
+iframe{
+	border:0;
+}
 /* = Carousel
 -------------------------------------------------------------- */
 
@@ -450,36 +459,112 @@ button{
 	font-size: 14px;
 	opacity: 1;
 }
+/* = Lightbox
+-------------------------------------------------------------- */
+
+a[data-lightbox]{
+	position: relative;
+	display: block;
+	text-align: center;
+}
+a[data-lightbox]:hover::before{
+	content:"+";
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+	font-size:32px;
+	width:50px;
+	height:50px;
+	margin-left:-25px;
+	border-radius: 50%;
+	background:rgba(0,0,0,.6);
+	color:#FFF;
+	font-weight:100;
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+a[data-lightbox]:hover img{
+	opacity: 0.6;
+	-webkit-animation-fill-mode: none;
+	animation-fill-mode:none;
+}
+#lightbox-modal{
+	display: flex;
+	align-items: center;
+}
+#lightbox-modal .modal-dialog{
+	width:90%;
+	max-width:900px;
+	margin:0 auto 0;
+}
+#lightbox-modal .modal-dialog img{
+	max-height:90vh;
+	margin: 0 auto;
+}
+.lightbox-caption{
+	padding: 20px;
+	color: #FFF;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	bottom: 5px;
+}
+.close-lightbox{
+	color:#FFF;
+	font-size: 30px;
+	position: absolute;
+	top:20px;
+	right:20px;
+	z-index: 20;
+	background:rgba(0,0,0,.5);
+	border:none;
+	line-height: 30px;
+	padding:0 9px 5px;
+	opacity: 0.3;
+}
+.close-lightbox:hover,.next-lightbox:hover, .prev-lightbox:hover{
+	opacity: 1.0;
+	color:#FFF;
+}
+.next-lightbox, .prev-lightbox{
+	font-size:20px;
+	color:rgba(255,255,255,.9);
+	background:rgba(0,0,0,.5);
+	transition: all .2s ease-in-out;
+	position: absolute;
+	top:45%;
+	z-index:1;
+	opacity: 0.4;
+}
+.next-lightbox{
+	padding:6px 8px 1px 13px;
+	right:25px;
+}
+.prev-lightbox{
+	padding:6px 13px 1px 10px;
+	left:25px;
+}
 
 /* = Custom Styling
 -------------------------------------------------------------- */
 
+h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+	font-family:"Helvetica";
+}
 .container{
-	max-width:1800px;
-	float:left;
+	max-width:1170px;
 }
-.mountaindusk-hero-text-sub{
-	font-family:"Josefin Sans";
-	font-size:36px;
-}
-.bloc-group-text-vc{
-	font-size:50px;
-	margin-top:20%;
-}
-.valley-hero-text-s{
-	font-size:60px;
-}
-.valley-hero-text-sub-s{
-	font-size:34px;
-}
-.hero-text-vc{
-	margin-top:50%;
+.lake-hero-bloc{
+	min-height:1100px;
 }
 .lake-hero-text{
 	font-family:"Josefin Sans";
 	font-size:60px;
 	font-weight:bold;
 	text-shadow:0px 3px 3px rgba(0,0,0,0.3);
+	width:600px;
 }
 .lake-hero-text-sub{
 	font-family:"Josefin Sans";
@@ -488,12 +573,21 @@ button{
 .blocs-hero-btn-dwn{
 	background-color:rgba(0,0,0,0.0);
 }
-.statement-bloc-text{
-	line-height:38px;
-	font-style:italic;
-	font-size:28px;
-	text-align:center;
-	font-weight:lighter;
+.built-with-blocs-bloc p{
+	font-size:11px;
+	font-family:"helvetica";
+	font-weight:bold;
+	color:rgba(255,255,255,0.8);
+}
+.bloc-group-text-vc{
+	font-size:50px;
+	margin-top:20%;
+}
+.imagem{
+	text-shadow:0px 0px 0px #000000;
+	background-position:center top;
+	border-width:20px 20px 20px 20px;
+	border-radius:20px 20px 20px 20px;
 }
 
 /* = Colour
@@ -510,8 +604,8 @@ button{
 
 /* Bloc image backgrounds */
 
-.bg-lake{
-	background-image:url("img/lake.jpg");
+.bg-DSC06850{
+	background-image:url("img/DSC06850.JPG");
 }
 
 
@@ -691,34 +785,7 @@ button{
 	.bloc-group-text-vc{
 	margin-top:0%;
 }
-.hero-text-vc{
-	margin-top:10%;
-}
- 
-/* Force Mini Menu */
-.navbar-header{
-	float: none;
-}
-.navbar-toggle{
-	display: block;
-}
- .navbar-collapse.collapse{
-	display: none!important;
-}
- .navbar-collapse.collapse.in{
-	display: block!important;
-}
- .site-navigation{
-	transform:none!important;
-}
-.nav-invert .navbar-header{
-	float: none;
-	 width:100%;
-}
-.nav-invert .navbar-toggle{
-	float:left;
-}
-}
+ }
 /* Drop Down Navigation */
 @media (min-width: 767px) and (max-width: 991px){
 	
@@ -754,23 +821,23 @@ button{
 }
  }
 @media (max-width: 767px){
-	.bloc-group-text-vc{
-	margin-top:0%;
-}
-.hero-text-vc{
-	margin-top:0px;
-}
-.bloc-mob-center-text{
-	text-align:center;
-}
-.lake-hero-text{
+	.lake-hero-text{
 	font-size:38px;
+	max-width:600px;
+	min-width:100px;
+	width:px;
 }
 .lake-hero-text-sub{
 	font-size:24px;
 }
 .lake-hero-bloc{
 	background-size:1550px auto;
+}
+.novo{
+	max-width:300px;
+}
+.bloc-group-text-vc{
+	margin-top:0%;
 }
  }
 
