@@ -234,7 +234,15 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 30px;
 	line-height: 45px;
 }
+#bloc-8 h2{
+	font-size: 65px;
+	line-height: 50px;
+}
 #bloc-8 p{
+	font-size: 30px;
+	line-height: 45px;
+}
+#bloc-9 p{
 	font-size: 30px;
 	line-height: 30px;
 }
@@ -373,6 +381,9 @@ nav .caret{
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -542,9 +553,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin:0px 0px 0px 0px;
 }
 .texto{
-	box-shadow:0px 0px 0px #929292;
+	box-shadow:0px 0px 0px #5E5E5E;
 	border-color:#929292;
-	background-color:rgba(0,0,0,0.5);
+	background-color:#5E5E5E;
 	text-align:justified;
 	line-height:45px;
 }
@@ -575,14 +586,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
-.bg--DSC9243{
-	background-image:url("img/_DSC9243.jpg");
-}
 .bg-1834-20Regimento-das-Legacoes-de-sua-magestade{
 	background-image:url("img/1834%20Regimento_das_Legacoes_de_sua_magestade.jpg");
-}
-.bg--DSC9959-2{
-	background-image:url("img/_DSC9959_2.jpg");
 }
 .bg-Screen-20Shot-202019-01-09-20at-204-31-55-20PM{
 	background-image:url("img/Screen%20Shot%202019-01-09%20at%204.31.55%20PM.png");
@@ -593,11 +598,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg--DSC1636{
 	background-image:url("img/_DSC1636.jpg");
 }
-.bg--MG-7241{
-	background-image:url("img/_MG_7241.jpg");
-}
 .bg-1912-20CHDD-20Fachada-20do-20Palácio-20Itamaraty{
 	background-image:url("img/1912.%20CHDD.%20Fachada%20do%20Palácio%20Itamaraty.jpg");
+}
+.bg--DSC9243-28menor-29{
+	background-image:url("img/_DSC9243%28menor%29.jpg");
+}
+.bg-1913-20Relações-20diplomáticas-20do-20Brasil-20de-201808-20a-201912{
+	background-image:url("img/1913.%20Relações%20diplomáticas%20do%20Brasil%20de%201808%20a%201912.jpg");
+}
+.bg-DSC09349-28menor-29{
+	background-image:url("img/DSC09349%28menor%29.jpg");
+}
+.bg--DSC0842-28menor-29{
+	background-image:url("img/_DSC0842%28menor%29.jpg");
 }
 
 
