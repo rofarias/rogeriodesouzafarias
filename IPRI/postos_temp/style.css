@@ -38,6 +38,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
+.bloc-xl{
+	padding:150px 50px;
+}
 .bloc-lg{
 	padding:100px 50px;
 }
@@ -183,6 +186,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Row Margin Offsets */
+
+.voffset-lg{
+	margin-top:80px;
+}
+
 /* Bloc text custom styling */
 
 #bloc-1 h1{
@@ -243,7 +252,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 25px;
 	line-height: 40px;
 }
-#bloc-13 p{
+#bloc-14 p{
 	font-size: 25px;
 	line-height: 40px;
 }
