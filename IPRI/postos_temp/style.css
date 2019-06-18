@@ -38,9 +38,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-xl{
-	padding:150px 50px;
-}
 .bloc-lg{
 	padding:100px 50px;
 }
@@ -79,9 +76,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	-moz-background-size: auto!important;
 	-o-background-size: auto!important;
 	background-size: auto!important;
-}
-.bg-center{
-	-webkit-background-size: auto;
 }
 .bg-repeat{
 	background:repeat;
@@ -186,12 +180,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-color:rgba(0,0,0,.3);
 }
 
-/* Row Margin Offsets */
-
-.voffset-lg{
-	margin-top:80px;
-}
-
 /* Bloc text custom styling */
 
 #bloc-1 h1{
@@ -221,12 +209,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 25px;
 	line-height: 45px;
 }
+#bloc-5 h2{
+	font-size: 65px;
+}
 #bloc-5 p{
 	font-size: 25px;
 	line-height: 45px;
 }
 #bloc-6 h2{
 	font-size: 65px;
+	line-height: 50px;
 }
 #bloc-6 p{
 	font-size: 25px;
@@ -240,19 +232,11 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 25px;
 	line-height: 45px;
 }
-#bloc-8 h2{
-	font-size: 65px;
-	line-height: 50px;
-}
 #bloc-8 p{
-	font-size: 25px;
-	line-height: 45px;
-}
-#bloc-9 p{
 	font-size: 25px;
 	line-height: 40px;
 }
-#bloc-14 p{
+#bloc-11 p{
 	font-size: 25px;
 	line-height: 40px;
 }
@@ -433,25 +417,6 @@ button{
 }
 
 
-/* Image Frame */
-.img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
-	background:#FFF;
-	border:1px solid rgba(0,0,0,0.1);
-	box-shadow:0 2px 2px rgba(0,0,0,0.05);
-	padding:4px;
-}
-.img-frame{
-	border-radius:3px;
-}
-.img-frame-md,.img-frame-lg{
-	border-radius:6px;
-}
-.img-frame-md,.img-frame-rd-md{
-	padding:8px;
-}
-.img-frame-lg,.img-frame-rd-lg{
-	padding:14px;
-}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
@@ -646,9 +611,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg--DSC9243reduzido{
 	background-image:url("img/_DSC9243reduzido.jpg");
-}
-.bg--DSC1636final{
-	background-image:url("img/_DSC1636final.jpg");
 }
 .bg-2019-01-14-2011-04-47-28menor-29{
 	background-image:url("img/2019-01-14%2011.04.47%28menor%29.jpg");
