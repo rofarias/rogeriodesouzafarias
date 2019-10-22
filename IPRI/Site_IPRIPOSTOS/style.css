@@ -74,19 +74,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Background Styles */
-
-.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
-	-webkit-background-size: auto!important;
-	-moz-background-size: auto!important;
-	-o-background-size: auto!important;
-	background-size: auto!important;
-}
-.bg-repeat{
-	background:repeat;
-}
-
-
 /* Background Textures */
 
 .bloc-bg-texture::before{
@@ -233,14 +220,6 @@ button{
 	outline: none!important;
 }
 
-.btn-wire{
-	background:transparent!important;
-	border:2px solid transparent;
-}
-.btn-wire:hover{
-	background:transparent!important;
-	border:2px solid transparent;
-}
 
 
 
@@ -476,23 +455,23 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-DL-20153-1-20-0002{
 	background-image:url("img/DL%20153.1%20-0002.jpg");
 }
-.bg-1912-20CHDD-20Fachada-20do-20Palácio-20Itamaraty{
-	background-image:url("img/1912.%20CHDD.%20Fachada%20do%20Palácio%20Itamaraty.jpg");
-}
-.bg-1913-20Relações-20diplomáticas-20do-20Brasil-20de-201808-20a-201912{
-	background-image:url("img/1913.%20Relações%20diplomáticas%20do%20Brasil%20de%201808%20a%201912.jpg");
-}
 .bg-DSC09349-28menor-29{
 	background-image:url("img/DSC09349%28menor%29.jpg");
 }
 .bg-MG-7241-28menor-29{
 	background-image:url("img/MG_7241%28menor%29.jpg");
 }
-.bg--DSC9243reduzido{
-	background-image:url("img/_DSC9243reduzido.jpg");
-}
 .bg-2019-01-14-2011-04-47-28menor-29{
 	background-image:url("img/2019-01-14%2011.04.47%28menor%29.jpg");
+}
+.bg--DSC5044{
+	background-image:url("img/_DSC5044.JPG");
+}
+.bg--DSC5012{
+	background-image:url("img/_DSC5012.JPG");
+}
+.bg-1913-20Relações-20diplomáticas-20do-20Brasil-20de-201808-20a-201912-20-28PNG-29{
+	background-image:url("img/1913.%20Relações%20diplomáticas%20do%20Brasil%20de%201808%20a%201912%20%28PNG%29.png");
 }
 
 
