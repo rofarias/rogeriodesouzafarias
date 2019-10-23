@@ -85,6 +85,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 	left:0;
 	right:0;
 }
+.texture-fabric::before{
+	background: url("img/texture-fabric.png");
+}
 .texture-darken::before{
 	background: rgba(0,0,0,0.5);
 }
@@ -273,8 +276,9 @@ button{
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
 }
-.container{
+.container-novo{
 	max-width:1170px;
+	background-color:transparent;
 }
 .mountain-hero-text{
 	font-family:"Josefin Sans";
@@ -288,6 +292,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .blocs-hero-btn-dwn{
 	background-color:rgba(255,255,255,0.2);
+}
+.menu{
+	font-size:28px;
 }
 .fonte{
 	font-size:30pt;
@@ -377,6 +384,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bloc-4-p{
 	font-size: 25px;
 	line-height: 45px;
+	width:100%;
 }
 .bloc-5-p{
 	font-size: 25px;
@@ -410,7 +418,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	line-height: 40px;
 }
 .p-style{
-	font-size:10px;
+	font-size:25px;
+	line-height:45px;
 }
 .h3-style{
 	font-size:16px;
@@ -422,6 +431,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:16px;
 }
 .h3-bloc-8-style{
+	font-size:16px;
+}
+.h3-3-style{
 	font-size:16px;
 }
 
@@ -549,6 +561,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 @media (max-width: 991px){
 	.tablet .menu, .mobile .menu{
 		margin:px px px px;
+	}
+	.div{
 	}
 	
 }
