@@ -74,28 +74,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Background Textures */
-
-.bloc-bg-texture::before{
-	content:"";
-	background-size: 2px 2px;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left:0;
-	right:0;
-}
-.texture-fabric::before{
-	background: url("img/texture-fabric.png");
-}
-.texture-darken::before{
-	background: rgba(0,0,0,0.5);
-}
-.texture-darken-strong::before{
-	background: rgba(0,0,0,0.8);
-}
-
-
 /* Dark theme */
 
 .d-bloc{
@@ -228,8 +206,8 @@ button{
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
-.sm-shadow{
-	text-shadow:0 1px 2px rgba(0,0,0,.3);
+.pressed-t{
+	text-shadow:0 1px 0 #FFF;
 }
 
 
@@ -247,6 +225,13 @@ button{
 }
 
 
+/* = Forms
+-------------------------------------------------------------- */
+
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
 
 
 
@@ -275,10 +260,16 @@ button{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
+	opacity:1.0;
 }
 .container-novo{
 	max-width:1170px;
 	background-color:transparent;
+	box-shadow:0px 0px 0px #929292;
+	opacity:1.0;
+}
+.webpage{
+	opacity:1.0;
 }
 .mountain-hero-text{
 	font-family:"Josefin Sans";
@@ -436,6 +427,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h3-3-style{
 	font-size:16px;
 }
+.black{
+	color:#000000!important;
+}
+.img-style{
+	width:500px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -445,15 +442,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-white{
 	background-color:#ffffff;
 }
-.bgc-blue-ryb{
-	background-color:#0432FF;
-}
-.bgc-black{
-	background-color:#000000;
+.bgc-taupe-gray{
+	background-color:#919191;
 }
 
 /* Text colour styles */
 
+.tc-taupe-gray{
+	color:#919191!important;
+}
 .tc-white{
 	color:#ffffff!important;
 }
@@ -469,30 +466,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
-.bg-Screen-20Shot-202019-01-09-20at-204-31-55-20PM{
-	background-image:url("img/Screen%20Shot%202019-01-09%20at%204.31.55%20PM.png");
-}
-.bg-DL-20153-1-20-0002{
-	background-image:url("img/DL%20153.1%20-0002.jpg");
-}
-.bg-DSC09349-28menor-29{
-	background-image:url("img/DSC09349%28menor%29.jpg");
-}
-.bg-MG-7241-28menor-29{
-	background-image:url("img/MG_7241%28menor%29.jpg");
-}
-.bg-2019-01-14-2011-04-47-28menor-29{
-	background-image:url("img/2019-01-14%2011.04.47%28menor%29.jpg");
-}
-.bg-DSC5012menor{
-	background-image:url("img/DSC5012menor.jpg");
-}
-.bg-1913rauladalberto{
-	background-image:url("img/1913rauladalberto.jpg");
-}
-.bg-2019-01-1615-29-10-28menor-29{
-	background-image:url("img/2019-01-1615.29.10%28menor%29.jpg");
-}
 
 
 
