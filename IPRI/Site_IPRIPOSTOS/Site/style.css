@@ -285,7 +285,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:rgba(255,255,255,0.2);
 }
 .menu{
-	font-size:28px;
+	font-size:20px;
 }
 .fonte{
 	font-size:30pt;
@@ -433,6 +433,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-style{
 	width:500px;
 }
+h3{
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -448,9 +450,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Text colour styles */
 
-.tc-taupe-gray{
-	color:#919191!important;
-}
 .tc-white{
 	color:#ffffff!important;
 }
