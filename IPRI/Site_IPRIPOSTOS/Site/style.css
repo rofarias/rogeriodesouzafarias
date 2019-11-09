@@ -157,10 +157,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = NavBar
 -------------------------------------------------------------- */
 
-.hero .hero-nav{
-	padding-left:inherit;
-	padding-right:inherit;
-}
 /* Handle Multi Level Navigation */.navbar-light .navbar-nav .nav-link {
 	color: rgb(64, 64, 64);
 }
@@ -225,13 +221,6 @@ button{
 }
 
 
-/* = Forms
--------------------------------------------------------------- */
-
-.form-control{
-	border-color:rgba(0,0,0,.1);
-	box-shadow:none;
-}
 
 
 
@@ -285,7 +274,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:rgba(255,255,255,0.2);
 }
 .menu{
-	font-size:20px;
+	font-size:16px;
 }
 .fonte{
 	font-size:30pt;
