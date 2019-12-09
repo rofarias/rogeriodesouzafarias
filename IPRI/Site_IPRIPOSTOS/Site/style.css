@@ -43,12 +43,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-lg{
-	padding:100px 50px;
-}
-.bloc-md{
-	padding:50px;
-}
 .bloc-sm{
 	padding:20px 50px;
 }
@@ -359,7 +353,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bloc-3-p{
 	font-size: 25px;
-	line-height: 45px;
+	line-height:40px;
 }
 .bloc-4-h2{
 	font-size: 59px;
@@ -435,21 +429,27 @@ h3{
 
 /* Background colour styles */
 
-.bgc-white{
-	background-color:#ffffff;
+.bgc-denim{
+	background-color:#266BC3;
 }
-.bgc-taupe-gray{
-	background-color:#919191;
+.bgc-white{
+	background-color:#FFFFFF;
 }
 
 /* Text colour styles */
 
-.tc-white{
-	color:#ffffff!important;
+.tc-denim{
+	color:#266BC3!important;
 }
 
 /* Link colour styles */
 
+.ltc-white{
+	color:#FFFFFF!important;
+}
+.ltc-white:hover{
+	color:#cccccc!important;
+}
 .ltc-blue-ryb{
 	color:#0432FF!important;
 }
