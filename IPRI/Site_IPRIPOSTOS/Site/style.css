@@ -354,10 +354,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size: 59px;
 	line-height: 60px;
 }
-.bloc-3-p{
-	font-size: 25px;
-	line-height:40px;
-}
 .bloc-4-h2{
 	font-size: 59px;
 	line-height: 60px;
@@ -399,8 +395,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	line-height: 40px;
 }
 .p-style{
-	font-size:25px;
-	line-height:45px;
+	font-size:14px;
+	line-height:18px;
 }
 .h3-style{
 	font-size:16px;
