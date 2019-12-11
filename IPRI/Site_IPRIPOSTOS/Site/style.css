@@ -415,6 +415,13 @@ h3{
 	background-color:#CECECE;
 	color:#000000!important;
 }
+.navbar-brand img{
+	width:200px;
+	height:100px;
+}
+.link-style{
+	opacity:1.0;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
