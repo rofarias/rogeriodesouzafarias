@@ -173,6 +173,13 @@ a:hover{text-decoration: none; cursor:pointer;}
 	transform: rotate(-90deg);
 }
 
+/* = Bric adjustment margins
+-------------------------------------------------------------- */
+
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -194,6 +201,15 @@ button{
 -------------------------------------------------------------- */
 .pressed-t{
 	text-shadow:0 1px 0 #FFF;
+}
+/* = Text Widths
+-------------------------------------------------------------- */
+.text-w-60{
+	max-width:60%;
+}
+.text-center.text-w-sm, .text-center.text-w-md, .text-center.text-w-lg, .text-center.text-w-90, .text-center.text-w-80, .text-center.text-w-70, .text-center.text-w-60, .text-center.text-w-50{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
