@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="Default">
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="">
@@ -7,18 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?2950">
-	<link rel="stylesheet" type="text/css" href="style.css?8353">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?6536">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/lazysizes.min.js" defer></script>
     <title>Home</title>
 
-
     
-<!-- Analytics -->
+<!-- Google Analytics -->
  
-<!-- Analytics END -->
+<!-- Google Analytics END -->
     
 </head>
 <body>
@@ -26,27 +30,24 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc l-bloc bgc-white " id="bloc-0">
-	<div class="container">
-		<nav class="navbar row navbar-light navbar-expand-md" role="navigation">
-			<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 mr-md-0" data-toggle="collapse" data-target=".navbar-1" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+<div class="bloc l-bloc bgc-white" id="bloc-0">
+	<div class="container bloc-sm">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
 			<div class="collapse navbar-collapse navbar-1">
-				<ul class="site-navigation nav navbar-nav ml-auto">
-					<li class="nav-item">
-						<a href="index.html" class="nav-link">Home</a>
+				<ul class="site-navigation nav navbar-nav ">
+					<li>
+						<a href="index.html">Home</a>
 					</li>
-					<li class="nav-item">
+					<li>
+						<a href="chefias.html">Chefias</a>
 					</li>
-					<li class="nav-item">
-						<a href="tels-adm.html" class="nav-link">Tels. Adm.</a>
-					</li>
-					<li class="nav-item">
-						<a href="chefias.html" class="nav-link">Chefias</a>
-					</li>
-					<li class="nav-item">
-						<a href="comércio.html" class="nav-link">Comércio</a>
+					<li>
+						<a href="tels-adm.html">Tels. Adm.</a>
 					</li>
 				</ul>
 			</div>
@@ -58,10 +59,12 @@
 <!-- bloc-1 -->
 <div class="bloc bloc-fill-screen d-bloc bgc-black" id="bloc-1">
 	<div class="container fill-bloc-top-edge">
-		<nav class="navbar row navbar-light navbar-expand-md" role="navigation">
-			<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 mr-md-0" data-toggle="collapse" data-target=".navbar-1" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
 			<div class="collapse navbar-collapse navbar-1">
 			</div>
 		</nav>
@@ -112,7 +115,7 @@
 <!-- bloc-1 END -->
 
 <!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><span class="fa fa-chevron-up"></span></a>
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
 
@@ -120,16 +123,9 @@
 <!-- Main container END -->
     
 
-<script src="./js/jquery-3.3.1.min.js?5807"></script>
-<script src="./js/bootstrap.bundle.min.js?6134"></script>
-<script src="./js/blocs.min.js?8341"></script>
-<script src="./js/lazysizes.min.js" defer></script>
-<!-- Additional JS END -->
-
-
 
 <!-- Preloader -->
-<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
+<div id="page-loading-blocs-notifaction"></div>
 <!-- Preloader END -->
 
 </body>
