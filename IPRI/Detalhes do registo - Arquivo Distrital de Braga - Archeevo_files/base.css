@@ -1,0 +1,109 @@
+
+/* FONTS */
+
+@font-face 
+{
+    font-family: Lato-Regular;
+    src: url('../_fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+
+}
+
+@font-face 
+{
+    font-family: Lato-Light;
+    src: url('../_fonts/Lato-Light.ttf') format('truetype');
+    font-weight: lighter;
+}
+
+@font-face 
+{
+    font-family: Lato-Bold;
+    src: url('../_fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face 
+{
+    font-family: Lato-Italic;
+    src: url('../_fonts/Lato-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+html
+,body {
+    height: 100%;
+    margin: 0pt;
+}
+
+form {
+    display: table;
+    height: 100%;
+}
+
+body, td, input, textarea, p /*, select*/
+{
+	font-family: Lato-Regular, Helvetica, Arial, Geneva, sans-serif;
+}
+
+h1, h2, h3
+{
+	font-family: Lato-Light, Helvetica, Arial, Geneva, sans-serif;
+}
+
+p
+,span
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: middle; 
+}
+
+body
+{
+	background-color:#ffffff;
+	color: #666666;
+	font-size: 0.75em;
+	font-weight: normal;
+	margin: 0px;
+	line-height: 1.5em;
+}
+
+td, input, textarea, select 
+{
+	color: #666666; 
+	font-size: 13px;
+	font-weight: normal;
+	outline: none;
+}
+
+img
+{
+	border: none;
+}
+
+a:hover 
+{
+	text-decoration: underline;
+}
+
+.ClearDiv 
+{
+	clear: both;
+	height: 0px;
+}
+
+.Invisible 
+{
+	display: none;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

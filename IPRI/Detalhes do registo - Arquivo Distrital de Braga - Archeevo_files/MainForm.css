@@ -1,0 +1,311 @@
+
+.MainHeader 
+{
+	height: 100px;
+}
+
+.MainMenu 
+{
+	margin-top:50px;
+	height: 40px;
+	margin:auto;
+}
+
+.MainMenu .MainContent
+{
+	display: none;
+}
+
+.MainMenu .divAppLogoBar 
+{
+	float: left;
+	padding: 5px 10px 0 15px;
+}
+
+.MainMenu .LoginControls
+{
+    float:right;
+    padding-right:20px;
+    line-height:40px;
+    height:40px;
+}
+
+.MainMenu .LinkButton
+{
+    text-decoration:underline;
+    float:right;
+	margin-right:10px;
+	height:30px;
+	line-height:30px;
+}
+
+.MainMenu .Separator
+{
+	line-height: 28px;
+}
+
+.MainMenu .NavBarImage
+{
+	/*padding-top: 6px;*/
+}
+
+.MainMenu .NavBarImage {
+  margin-top: -5px;
+}
+
+.MainMenu .LabelUserName {
+    display: block;
+    padding-top: 12px;
+}
+
+.MainMenu .LabelUserName,
+.MainMenu .LabelWelcome,
+.MainMenu .LabelHelp,
+.MainMenu .LabelLogin,
+.MainMenu .LabelLogout
+{
+    color: White;
+}
+
+.MainMenu .LinkButtonUser
+{
+	padding-top: 8px;
+}
+
+.MainMenu .ImageUser
+{
+	max-height: 23px;
+	padding-right:10px;
+}
+
+.MainMenu .ImageHelp {
+    cursor: inherit;
+}
+
+.MainMenu a:active,
+.MainMenu a:link,
+.MainMenu a:visited,
+.MainMenu a:hover 
+{
+/*	color: white;*/
+}
+
+.MainMenu .AspNet-Menu-Selected a:active,
+.MainMenu .AspNet-Menu-Selected a:link,
+.MainMenu .AspNet-Menu-Selected a:visited,
+.MainMenu .AspNet-Menu-Selected a:hover 
+{
+/*	color: #333;*/
+}
+
+.MainMenu .AspNet-Menu 
+{
+}
+
+
+.MainMenu a img:hover
+,.MainMenu input[type="image"]:hover
+{
+    opacity: 1;
+}
+
+.MainMenu .navbar-right .SvgObject,
+.MainMenu .ImageLogin
+,.MainMenu .ImageLogout
+,.MainMenu .ImageWelcome
+,.MainMenu .ImageHelp
+,.MainMenu .font-icon-menu-home
+,.MainMenu .font-icon-menu-help
+,.MainMenu .font-icon-menu-login
+,.MainMenu .font-icon-menu-logout {
+    display:none;
+}
+
+
+.MainMenu .LabelLogin
+,.MainMenu .LabelLogout
+,.MainMenu .LabelHelp
+{
+    display: inline;
+    vertical-align:middle;
+}
+
+@media (min-width: 768px)
+{
+    
+    .MainMenu .navbar-right .SvgObject,
+    .MainMenu .ImageLogin
+    ,.MainMenu .ImageLogout
+    ,.MainMenu .ImageWelcome
+    ,.MainMenu .ImageHelp
+    {
+        display: inline;
+    }
+
+    .MainMenu .LabelLogin
+    ,.MainMenu .LabelLogout
+    ,.MainMenu .LabelWelcome
+    ,.MainMenu .LabelHelp
+
+    {
+        display: none;
+    }
+
+    .MainMenu .font-icon-menu-home
+    ,.MainMenu .font-icon-menu-help
+    ,.MainMenu .font-icon-menu-login
+    ,.MainMenu .font-icon-menu-logout {
+        display:inline;
+    }
+
+}
+
+
+.FooterTop,
+.FooterFixed
+{
+	background-color: #333;
+}
+
+.FooterTop
+{
+	clear: both;
+	margin: auto;
+}
+
+.FooterTop .FooterFBIcon
+{
+	padding-top: 8px;
+}
+
+.FooterTop .FooterHeader 
+{
+	line-height: 38px;
+}
+
+.FooterTop .FooterBody
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.FooterTop p
+{
+    margin-bottom: 0.4em;
+}
+
+.FooterTop address>p {
+    margin-bottom: 0;
+}
+
+.BodyDescription p {
+    line-height: 1.5em;
+}
+
+.FooterTop .FooterHeader,
+.FooterTop .FooterHeader span,
+.FooterTop .FooterHeader a:active, 
+.FooterTop .FooterHeader a:link, 
+.FooterTop .FooterHeader a:visited, 
+.FooterTop .FooterHeader a:hover,
+.FooterTop .FooterBodyTitle
+{
+	color: #FFFFFF;
+	color: rgba(255,255,255,1);
+}
+
+.FooterTop .FooterBodyDescription,
+.FooterTop .FooterBodyDescription p,
+.FooterTop .FooterBodyDescription a:active, 
+.FooterTop .FooterBodyDescription a:link, 
+.FooterTop .FooterBodyDescription a:visited, 
+.FooterTop .FooterBodyDescription a:hover
+{
+	color: #FFFFFF;
+	color: rgba(255,255,255,0.8);
+}
+
+.FooterTop .FooterMail
+{
+	text-decoration: underline;
+}
+
+.FooterHeader
+{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.FooterBody 
+{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.FooterFixed
+{
+	clear:both;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.FooterFixed .RepeaterFlags
+{
+	float: right;
+	line-height: 40px;
+	margin-right: 20px;
+}
+
+.FooterFixed .ImageButtonInstitutionLogo {
+    margin-bottom: 0;
+}
+
+
+/* SVG OBJECT SIZE UPDATE */
+
+.MainMenu .navbar-header .LinkButtonBrand {
+    margin-bottom: 0;
+}
+
+.MainMenu .navbar-header .LinkButtonBrand .SvgObject,
+.MainMenu .navbar-header .LinkButtonBrand .SvgObject img {
+    height: 21px;
+    width:170px;
+}
+
+
+.MainMenu .navbar-header .LinkButtonBrand .SvgObject {
+}
+
+.navbar-right .LinkButton .SvgObject,
+.navbar-right .LinkButton .SvgObject img {
+    height: 21px;
+}
+
+.navbar-right .LinkButton .SvgObject {
+    margin-top: -5px;
+}
+
+
+.footer .pull-right {
+    margin: 0;
+}
+
+.footer .SvgObject,
+.footer .SvgObject img {
+    /* margin-top: 5px; */
+    /* width: 26px; */
+}
+
+.FooterFixed .HyperLinkFlag .SvgObject,
+.FooterFixed .HyperLinkFlag .SvgObject img {
+    height: 16px;
+    /* padding-top: 5px; */
+}
+
+.FooterFixed .ImageButtonInstitutionLogo .SvgObject,
+.FooterFixed .ImageButtonInstitutionLogo .SvgObject img {
+    height: 25px;
+    /* width: 135px; */
+}
+
