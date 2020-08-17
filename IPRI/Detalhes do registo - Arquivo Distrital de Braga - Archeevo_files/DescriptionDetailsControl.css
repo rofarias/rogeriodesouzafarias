@@ -1,0 +1,656 @@
+
+.DescriptionDetailsControl {
+    padding-top: 0;
+}
+
+.DescriptionDetailsControl .resizableLeft, .DescriptionDetailsControl .resizableRight {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.DescriptionDetailsControl .TitleNoInfo {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.DescriptionDetailsControl .alert {
+    margin-top: 10px;
+}
+
+.DescriptionDetailsControl .LeftColumn,
+.DescriptionDetailsControl .MiddleColumn,
+.DescriptionDetailsControl .RightColumn {
+    padding-top: 20px;
+    height: 100%;
+}
+
+.DescriptionDetailsControl .LeftColumn {
+    padding-left: 20px;
+    float: left;
+}
+
+.DescriptionDetailsControl .LeftColumn .TreeTitle {
+    margin-bottom: 10px;
+}
+
+.DescriptionDetailsControl .MiddleColumn {
+/*padding-left: 330px;*/
+/*
+    padding-right: 20px;
+    margin-right: 260px;
+*/
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    margin-right: 290px;
+    background-color: White;
+}
+
+/*
+.DescriptionDetailsControl .MiddleColumn img 
+{
+	margin-top: -5px;
+}
+*/
+
+.DescriptionDetailsControl .LabelFlag {
+    /*font-weight: bold;*/
+    font-family: Lato-Bold;
+}
+
+.DescriptionDetailsControl .RightColumn {
+    /*width: 220px;*/
+    width: 255px;
+    float: right;
+    /*padding-right: 20px;*/
+    padding-right: 15px;
+    padding-top: 35px;
+}
+
+.DescriptionDetailsControl .RightColumn a > span {
+    color: #333333;
+}
+
+.DescriptionDetailsControl .alert > p + p {
+    margin: 0;
+}
+
+.DescriptionDetailsControl .HiddenButtonShowMore {
+    position: absolute;
+    left: -1000px;
+    top: -1000px;
+}
+
+.DescriptionDetailsControl .AspNet-TreeView {
+    font-size: 0.8em;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.DescriptionDetailsControl .AspNet-TreeView .AspNet-TreeView-Root,
+.DescriptionDetailsControl .AspNet-TreeView .AspNet-TreeView-Parent,
+.DescriptionDetailsControl .AspNet-TreeView .AspNet-TreeView-Leaf {
+    font-weight: normal;
+}
+
+.DescriptionDetailsControl .AspNet-TreeView a {
+    display: inline-block;
+    line-height: 16px;
+    height: 16px;
+    vertical-align: bottom;
+    color: #666;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.DescriptionDetailsControl .AspNet-TreeView .UnitTitle,
+.DescriptionDetailsControl .AspNet-TreeView .RelatedDescriptionItem {
+    color: #333;
+}
+
+.DescriptionDetailsControl .AspNet-TreeView .AspNet-TreeView-Selected > a  {
+    color: #333;
+    /*font-weight: bold;*/
+    font-family: Lato-Bold;
+}
+
+.DescriptionDetailsControl .AspNet-TreeView .AspNet-TreeView-ParentSelected a {
+    color: #666;
+    font-weight: normal;
+}
+
+.DescriptionDetailsControl .AspNet-TreeView .AspNet-TreeView-Root ul {
+    padding-left: 10px;
+}
+
+.DescriptionDetailsControl .AspNet-TreeView a img {
+    vertical-align: bottom;
+    margin-right: 4px;
+}
+
+.DescriptionDetailsControl .LabelArchivistNoteTitle {
+    /*font-weight: bold;*/
+    font-family: Lato-Bold;
+}
+
+.DescriptionDetailsControl .Field .NameContainer {
+    margin-bottom: 5px;
+}
+
+.DescriptionDetailsControl .Field .Value {
+    /*text-align: justify;*/
+}
+
+.DescriptionDetailsControl .DescriptionFields .Links .Link {
+    margin-right: 30px;
+}
+
+
+.DescriptionDetailsControl .DigitalRepresentation {
+    margin-bottom: 30px;
+}
+
+.DescriptionDetailsControl .DigitalRepresentation .ControlView {
+    margin: auto;
+}
+
+.DescriptionDetailsControl .DigitalRepresentation .ImageButtonWrapper {
+    width: 132px;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.DescriptionDetailsControl .DigitalRepresentation .Button {
+    display: inline-block;
+}
+
+.DescriptionDetailsControl .CreateRequest {
+    margin-bottom: 30px;
+}
+
+.DescriptionDetailsControl .CreateRequest .Requests {
+    padding-top: 10px;
+}
+
+.DescriptionDetailsControl .CreateRequest .Requests .Request {
+    padding-bottom: 1.2em;
+}
+
+.DescriptionDetailsControl .CreateRequest .Requests .Request .HyperlinkImage {
+    padding-top: 4px;
+    padding-right: 6px;
+    width: 20px;
+    float: left;
+}
+
+.DescriptionDetailsControl .CreateRequest .Requests .Request .ImageButtonAddToList {
+    padding-right: 7px;
+}
+
+.DescriptionDetailsControl .CreateRequest .Requests .Request .HyperlinkImage .Image {
+    text-align: left;
+}
+
+.DescriptionDetailsControl .CreateRequest .Requests .Request .HyperlinkLabel {
+}
+
+.DescriptionDetailsControl .CreateRequest .Requests .Request .Image {
+}
+
+.DescriptionDetailsControl .CreateRequest .Requests .Request .Label {
+    margin: 0;
+    padding: 0;
+    min-height: 0;
+}
+
+.DescriptionDetailsControl .Field .HyperLink {
+    text-decoration: underline;
+    line-height: 20px;
+}
+
+.DescriptionDetailsControl .RightColumn .ShareOnSocialNetworks {
+    padding-bottom: 3em;
+}
+
+.DescriptionDetailsControl .RightColumn .ShareOnSocialNetworks .ShareButtons {
+    padding-top: 10px;
+}
+
+.DescriptionDetailsControl .RightColumn .ShareOnSocialNetworks .ShareButtons .ShareButton {
+    padding-right: 5px;
+}
+
+.DescriptionDetailsControl .RightColumn .ShareOnSocialNetworks .ShareButtons .ShareButton a:active,
+.DescriptionDetailsControl .RightColumn .ShareOnSocialNetworks .ShareButtons .ShareButton a:hover,
+.DescriptionDetailsControl .RightColumn .ShareOnSocialNetworks .ShareButtons .ShareButton a:visited,
+.DescriptionDetailsControl .RightColumn .ShareOnSocialNetworks .ShareButtons .ShareButton a:link {
+    border: none;
+}
+
+.Footer {
+    margin-top: 0;
+}
+
+
+.DescriptionDetailsControl .MyList {
+    padding-bottom: 30px;
+}
+
+.DescriptionDetailsControl .MyList .Title {
+    font-size: 1.2em;
+    /*font-weight: bold;*/
+    font-family: Lato-Bold;
+    text-transform: uppercase;
+}
+
+.DescriptionDetailsControl .MyList .Actions {
+    float: right;
+    padding-top: 3px;
+}
+
+    .DescriptionDetailsControl .MyList .Actions .HyperLink {
+        float: left;
+        margin-right: 5px;
+    }
+
+.DescriptionDetailsControl .MyList .List {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.DescriptionDetailsControl .MyList .HyperLink {
+    float: right;
+    margin-right: 5px;
+}
+
+.DescriptionDetailsControl .ListItem .ThumbnailLink,
+.DescriptionDetailsControl .ListItem .TextLink,
+.DescriptionDetailsControl .ListItem .ImageButtonRemove {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.2em;
+}
+
+.DescriptionDetailsControl .ListItem .ThumbnailLink {
+    width: 50px;
+    max-height: 50px;
+}
+
+.DescriptionDetailsControl .ListItem .TextLink {
+    /*line-height: 3.8em;*/
+    color: #333;
+    width: 147px;
+}
+
+.DescriptionDetailsControl .ListItem .Link:hover {
+    text-decoration: none;
+}
+
+.DescriptionDetailsControl .ListItem .Thumbnail {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.DescriptionDetailsControl .DescriptionListControl .Header {
+    padding-bottom: 5px;
+}
+
+.DescriptionDetailsControl .ListItem .ListItemText {
+    /*
+    float:left;
+	padding-top: 12px;
+    */
+    padding-top: 0px;
+}
+
+.DescriptionDetailsControl .ListItem .ListItemThumb {
+    float: right;
+}
+
+.DescriptionDetailsControl .ListItem .ImageButtonRemove {
+    width: auto;
+    margin-top: 4px;
+    float: left;
+    padding-right: 3px;
+}
+
+.wrap {
+    height: 100%;
+}
+
+.wrapDescriptionInfo {
+    background-image: url(../image/frontoffice_background_details_right.png);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.resizable {
+    display: inline-block;
+    /*    height: 500px;*/
+}
+
+.resizableLeft {
+    background-color: white;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 25%;
+}
+
+.resizableRight {
+    width: 75%;
+}
+
+.ui-resizable-e {
+    background-color: white;
+    border-left: solid 2px #F0F0F0;
+    width: 3px;
+    padding-right: 4px;
+    padding-left: 4px;
+    cursor: col-resize;
+}
+
+.DescriptionDetailsControl .hilite,
+.DescriptionDetailsControl .hilite1 {
+    vertical-align: top;
+    /*line-height: 20px;*/
+    line-height: inherit;
+}
+
+.DescriptionDetailsControl .Title .hilite,
+.DescriptionDetailsControl .Title .hilite1 {
+    /*line-height: 50px;*/
+    line-height: inherit;
+    /*font-weight: bold;*/
+    font-family: Lato-Bold;
+}
+
+.DescriptionDetailsControl .Field .ImageInitialDateCertainty, .DescriptionDetailsControl .Field .ImageFinalDateCertainty {
+    padding-left: 3px;
+    padding-right: 5px;
+    padding-top: 1px;
+}
+
+.DescriptionDetailsControl .Field .LabelDatesSeparator {
+    padding-right: 5px;
+}
+
+.DescriptionDetailsControl .CenterRightSeparator {
+    display: none;
+}
+
+
+.DescriptionDetailsControl .GridViewAuthorityRelations {
+    width: 100%;
+}
+
+    .DescriptionDetailsControl .GridViewAuthorityRelations .RelatedLiteDescriptionItem {
+    }
+
+        .DescriptionDetailsControl .GridViewAuthorityRelations .RelatedLiteDescriptionItem a {
+            display: block;
+            margin-bottom: 0.2em;
+        }
+
+.DescriptionDetailsControl .RelatedLiteDescriptionItem a .SvgImageRelation {
+    padding-right: 5px;
+}
+
+.DescriptionDetailsControl .GridViewAuthorityRelations .RelatedLiteDescriptionItem .LabelRelationDescription {
+    display: block;
+    opacity: 0.7;
+    font-size: 0.7em;
+    line-height: 1.35em;
+    margin-bottom: 0;
+}
+
+.DescriptionDetailsControl .GridViewAuthorityRelations tr:hover .RelatedLiteDescriptionItem .LabelRelationDescription {
+    font-size: 1em;
+    transition: all ease 0.6s;
+    transition-delay: 1s;
+}
+
+.DescriptionDetailsControl .GridViewAuthorityRelations .RelationType {
+    width: 20%;
+}
+
+.DescriptionDetailsControl .GridViewAuthorityRelations .RelationDates {
+    width: 180px;
+}
+
+
+.DescriptionDetailsControl .ButtonShowHide {
+    float: left;
+    margin-top: 13px;
+}
+
+.DescriptionDetailsControl .divLeftHidden {
+}
+
+.DescriptionDetailsControl .LeftColumn h2 {
+    font-size: 3.5em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.DescriptionDetailsControl .LeftColumn .GroupName {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.DescriptionDetailsControl .ResponsiveTitle {
+    display: none;
+}
+
+.DescriptionDetailsControl .lbl-association {
+    float: right;
+}
+
+    .DescriptionDetailsControl .lbl-association:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+
+@media (max-width: 768px) {
+
+    .DescriptionDetailsControl {
+        padding-bottom: 30px;
+    }
+
+        /*.DescriptionDetailsControl .RightColumn,*/
+        .DescriptionDetailsControl .CreateRequest {
+        }
+
+        .DescriptionDetailsControl .resizableLeft {
+            /*display: none;*/
+            width: 0 !important;
+        }
+
+        .DescriptionDetailsControl .ResponsiveTitle {
+            display: block;
+        }
+
+        .DescriptionDetailsControl .MiddleColumn h1 {
+            display: none;
+        }
+
+        .DescriptionDetailsControl .resizableRight {
+            width: 100%;
+        }
+
+        .DescriptionDetailsControl .wrap {
+            height: auto;
+            background: none;
+        }
+
+        .DescriptionDetailsControl .MiddleColumn,
+        .DescriptionDetailsControl .RightColumn {
+            width: 95%;
+            margin: auto;
+        }
+
+        .DescriptionDetailsControl .MiddleColumn {
+            padding: 0;
+        }
+
+        .DescriptionDetailsControl .CenterRightSeparator {
+            clear: both;
+            height: 0px;
+        }
+
+        .DescriptionDetailsControl .RightColumn {
+            float: none;
+            padding: 0;
+        }
+
+        .DescriptionDetailsControl h1 {
+            /*position: absolute;
+        top: 50px;*/
+            top: 0;
+        }
+
+        .DescriptionDetailsControl .RightColumn {
+            /*padding-top: 50px;*/
+            padding-top: 0;
+        }
+
+        .DescriptionDetailsControl .resizableRight {
+            padding-top: 0;
+        }
+
+        .DescriptionDetailsControl .MyList,
+        .DescriptionDetailsControl .AddToList {
+            display: none;
+        }
+
+        .DescriptionDetailsControl .ModifyAvailableState {
+            display: none;
+        }
+}
+
+.DescriptionDetailsControl .show-more-relations-tree {
+    color: #337ab7;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    font-family: Lato-Bold;
+}
+
+.DescriptionDetailsControl .Field ul {
+    list-style: inherit;
+    padding-left: 20px;
+}
+
+
+/* SVG OBJECT SIZE UPDATE */
+.DescriptionDetailsControl .RightColumn .HyperLink img {
+    height: 15px;
+}
+
+.DescriptionDetailsControl .Field.UnitDates {
+    margin-bottom: 21px;
+}
+
+.DescriptionDetailsControl .RightColumn .CreateRequest .SvgObject,
+.DescriptionDetailsControl .RightColumn .CreateRequest img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.DescriptionDetailsControl .RightColumn a.FontIconLink {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 0;
+}
+
+.DescriptionDetailsControl .RightColumn .SvgObject {
+    margin-top: 5px;
+}
+
+.DescriptionDetailsControl .RightColumn .ListItem {
+    padding-top: 5px;
+}
+
+.DescriptionDetailsControl .RightColumn .ListItem .LinkButtonRemove {
+    float: left;
+}
+
+.DescriptionDetailsControl .ListItem .ThumbnailLink,
+.DescriptionDetailsControl .ListItem .TextLink,
+.DescriptionDetailsControl .ListItem .ImageButtonRemove {
+    display: initial;
+}
+
+.DescriptionDetailsControl .RightColumn .ShareButtons .SvgObject,
+.DescriptionDetailsControl .RightColumn .ShareButtons img {
+    height: 30px;
+    width: 30px;
+    position: initial;
+}
+
+.DescriptionDetailsControl .AspNet-TreeView-Root.AspNet-TreeView-Selected > a > span,
+.DescriptionDetailsControl .AspNet-TreeView-Leaf.AspNet-TreeView-Selected > a > span,
+.DescriptionDetailsControl .AspNet-TreeView-Parent.AspNet-TreeView-Selected > a > span {
+    /*font-weight: bold;*/
+    font-family: Lato-Bold;
+    text-decoration: underline;
+}
+
+.DescriptionDetailsControl .Field.DescriptionLevel .SvgObject,
+.DescriptionDetailsControl .Field.DescriptionLevel img {
+    width: 20px;
+}
+
+.DescriptionDetailsControl .Field.DescriptionLevel .SvgObject {
+    height: 25px;
+}
+
+.DescriptionDetailsControl .Field.UnitDates .DateRange span,
+.DescriptionDetailsControl .Field.UnitDates .DateRange .SvgObject,
+.DescriptionDetailsControl .Field.UnitDates .DateRange img {
+    /*float: left;*/
+    padding-right: 5px;
+}
+
+.DescriptionDetailsControl .Field.UnitDates .DateRange .SvgObject,
+.DescriptionDetailsControl .Field.UnitDates .DateRange img {
+    width: 20px;
+}
+
+.DescriptionDetailsControl .Field.UnitDates .DateRange .SvgObject {
+    height: 20px;
+}
+
+.DescriptionDetailsControl .DescriptionTreeView .SvgObject {
+    float: left;
+    width: 15px;
+    height: 20px;
+    margin-right: 3px;
+}
+
+
+
+/* Hide tree side if no trees available */
+
+.DescriptionDetailsControl .WrapDescriptionInfoNoTree .resizableLeft {
+    display: none;
+}
+
+.DescriptionDetailsControl .WrapDescriptionInfoNoTree .resizableRight {
+    min-height: 0 !important;
+    width: 100% !important;
+}
+
+.DescriptionDetailsControl .font-icon-record-details {
+    margin: 0;
+    padding: 0;
+}
+
+.DescriptionDetailsControl .fa {
+    /*width: 24px;*/
+}
+
+.DescriptionDetailsControl .font-icon-record-data-certainty {
+    top: -1px;
+    position: relative;
+}

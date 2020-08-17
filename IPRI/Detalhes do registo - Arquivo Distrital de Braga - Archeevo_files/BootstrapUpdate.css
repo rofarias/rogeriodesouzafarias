@@ -1,0 +1,297 @@
+
+
+nav.navbar.navbar-default.navbar-fixed-top,
+.navbar-default .navbar-toggle,
+.navbar .container,
+.nav navbar-nav,
+.navbar-nav li,
+.navbar-nav li>a,
+.navbar-nav li.active>a,
+.navbar-default .navbar-nav>li>a
+{
+    height:40px;
+    min-height: 0;
+}
+
+.navbar-default .navbar-nav>li>a:active
+,.navbar-default .navbar-nav>li>a:link
+,.navbar-default .navbar-nav>li>a:visited
+,.navbar-default .navbar-nav>li>a:hover
+,.navbar-default .navbar-nav>li.active>a:active
+,.navbar-default .navbar-nav>li.active>a:link
+,.navbar-default .navbar-nav>li.active>a:visited
+,.navbar-default .navbar-nav>li.active>a:hover
+{
+    text-decoration: none;
+    line-height: 40px;
+}
+
+
+.navbar .container 
+,.navbar-collapse 
+,.navbar-default .navbar-toggle:focus
+{
+    background-color: #A11D28;
+}
+
+.navbar .container 
+{
+    width: 100%;
+}
+
+
+.navbar-default .navbar-collapse
+{
+    border-color: rgba(0,0,0,0.05);
+    /*margin-top: 3px;*/
+}
+
+.navbar .container .LinkButtonBrand {
+    margin-top: 12px;
+}
+
+.navbar-default .navbar-toggle
+{
+    margin-top: 2px;
+    margin-bottom: 0;
+    height: 35px;
+    border-color: rgba(0,0,0,0.05);
+}
+
+.navbar-nav > .Separator 
+{
+    display: none;
+}
+
+.navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a,
+.navbar-nav li.active>a,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:active,
+.navbar-default .navbar-nav>.active>a:link,
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav> li > a:focus, .navbar-default .navbar-nav > li > a:hover
+{
+    margin-left:0;
+    margin-right:0;
+    text-transform: uppercase;
+    color: White;
+    padding:0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-default .navbar-nav>li>a>span {
+    vertical-align: inherit;
+}
+
+.navbar-default .FontIconLink {
+    margin-bottom:10px;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:active, 
+.navbar-default .navbar-nav>.active>a:link, 
+.navbar-default .navbar-nav>.open>a
+{
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.navbar-default .navbar-nav> li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-toggle:hover
+{
+	background-color: rgba(0,0,0,0.05);
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>li>a 
+{
+    line-height: 10px;
+}
+
+.btn-custom 
+{   
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: none;
+  
+/*Bootstrap attributes */
+    color: #FFFFFF;
+    background-color: #A11D28;
+    border-color: transparent;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.open .dropdown-toggle.btn-custom {
+    color: #FFFFFF;
+    background-color: #A11D28;
+    border-color: transparent;
+}
+.btn-custom:active,
+.btn-custom.active,
+.open .dropdown-toggle.btn-custom {
+    background-image: none;
+}
+
+.btn-custom.disabled,
+.btn-custom[disabled],
+fieldset[disabled] .btn-custom,
+.btn-custom.disabled:hover,
+.btn-custom[disabled]:hover,
+fieldset[disabled] .btn-custom:hover,
+.btn-custom.disabled:focus,
+.btn-custom[disabled]:focus,
+fieldset[disabled] .btn-custom:focus,
+.btn-custom.disabled:active,
+.btn-custom[disabled]:active,
+fieldset[disabled] .btn-custom:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom.active {
+    background-color: #A11D28;
+    border-color: transparent;
+}
+
+.btn-custom .badge {
+    color: #FFFFFF;
+    background-color: #A11D28;
+}
+
+.btn-custom:hover {
+  opacity: 0.9;
+}
+
+/* Collapsed rules */
+
+.navbar-default .navbar-collapse ul 
+{
+	float: left;
+}
+
+.navbar-default .navbar-collapse ul li a
+{
+	float: left;
+}
+
+span.icon-bar {
+    margin: 0;
+    background-color: white !important;
+    color: white;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.btn-custom-search {
+    padding-right:40px;
+}
+
+.navbar-header .ImageButtonLogo 
+{
+    padding-left: 1em;
+}
+    
+.navbar-default .navbar-collapse ul
+{
+    width: 100%;
+    padding-left: 2em;
+}
+
+.navbar-default .navbar-collapse ul > li > a
+{
+    width: 100%;
+}
+
+@media (min-width: 768px) 
+{
+    .navbar-header .ImageButtonLogo 
+    {
+        padding-left: 0;
+    }
+    
+    .navbar-default .navbar-collapse ul
+    {
+        width: auto;
+        padding-left: 0;
+    }
+
+    .navbar-default .navbar-collapse ul > li > a
+    {
+        width: auto;
+    }
+
+}
+
+@media (max-width: 950px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .navbar .container .LinkButtonBrand {
+        padding-left: 8px;
+    }
+
+    .navbar-default .navbar-collapse ul > li > a {
+        width: 100%;
+    }
+    
+    .navbar .container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .navbar-nav li {
+        height: 0px;
+    }
+
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 420px;
+    }
+
+    .MainMenu a > span.font-icon-menu-archeevo-logo {
+        margin-left: 25px;
+    }
+    
+}
