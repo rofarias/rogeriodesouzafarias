@@ -1,0 +1,90 @@
+﻿
+/* IMAGEBUTTON CSS */
+
+.ImageButtonControl,
+.ImageButtonControl .ButtonImage
+{
+    height: 2.2em;
+    max-height: 26px;
+}
+
+.ImageButtonControl
+{
+	-border-radius:0.5em 0.5em 0.5em 0.5em;
+    -moz-border-radius:0.5em 0.5em 0.5em 0.5em;
+    -webkit-border-radius:0.5em 0.5em 0.5em 0.5em;
+    border-radius:0.5em 0.5em 0.5em 0.5em;
+    background-image:url(../image/frontoffice_button_background_middle_noborder.png);
+    background-repeat:repeat-x;
+    /*border-left:1px solid #333;
+    border-right:1px solid #333;
+    border:1px solid #3a3a3a;*/
+    border:0.1em solid #5f5f5f;
+    float: left;
+}
+
+.ImageButtonControl .ButtonImage
+{
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    cursor:pointer;
+    text-transform: uppercase;
+}
+
+.ImageButtonControl .Left
+{
+    background-position: center left;
+    padding-left: 1.65em;
+}
+
+.ImageButtonControl .Right
+{
+    background-position: center right;
+    padding-right: 1.65em;
+}
+
+.ImageButtonControl .None
+{
+}
+
+.ImageButtonControlHyperLink
+{
+    background-color:transparent;
+    border:0;
+    float: left;
+}
+
+.ImageButtonControl .ButtonImageHyperLink
+{
+    text-decoration:underline;
+}
+
+
+/* HYPERLINKBUTTON CSS */
+
+
+.HyperLinkButtonControl,
+.HyperLinkButtonControl .ButtonHyperLink
+{
+    height: 2.2em;
+}
+
+.HyperLinkButtonControl
+{
+    background-color:Transparent;
+    border:0;
+/*    float: left; */
+}
+
+.HyperLinkButtonControl .ButtonHyperLink
+{
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    padding:0;
+    margin:0;
+    text-decoration:underline;
+    cursor:pointer;
+    text-transform: uppercase;
+}
